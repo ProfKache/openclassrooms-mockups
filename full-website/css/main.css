@@ -1,0 +1,404 @@
+/* Custom CSS 
+ * Copyright: 2019
+ */
+
+#header {
+  width: 100%;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+  background: url("../images/nature.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.intro {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#header-text {
+  padding-top: 250px;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.preamble {
+  margin-top: 0;
+}
+
+.right-info {
+  padding-top: 150px;
+}
+
+/* Styling the camera shot */
+.inner-box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.outer-box {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 9px;
+}
+
+#camera {
+  position: relative;
+  top: 0;
+  left: 35px;
+  font-family: 'Times New Roman', verdana;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Tiles with grid styles */
+#content-tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, minmax(180px, auto));
+  margin: 50px 0;
+}
+
+
+.tiles {
+  color: #fff;
+  padding: 35px;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.tiles h2 {
+  font-weight: 100;
+}
+
+.tiles p {
+  font-weight: 100;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.tiles a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tile-one {
+  background: #f66;
+  grid-column: 1/2;
+}
+
+.tile-two {
+  background: #2e4a9e;
+  grid-column: 2/3;
+}
+
+.tile-three {
+  background: url("../images/mountains.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  grid-column: 3/4;
+}
+
+.tile-four {
+  background: violet;
+  grid-column: 4/5;
+}
+
+.tile-five {
+  background: url("../images/mountains.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  grid-column: 1/3;
+}
+
+.tile-five .glyphicon {
+  padding-top: 45px;
+}
+
+.tile-six {
+  background: #00e673;
+  grid-column: 3/4;
+}
+
+.tile-seven {
+  background: url("../images/desert.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  grid-column: 4/5;
+}
+
+.glyphicon {
+  padding-top: 25px;
+  padding-left: 12px;
+}
+
+p {
+  color: #af9d9d;
+  line-height: 1.7em;
+}
+
+/* Details styles */
+.container > h1 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.col-md-3 > h4 {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Power info styles */
+#power-info {
+  height: 800px;
+  margin: 80px 0 0 0;
+  padding: 450px 0;
+  background: url(../images/mountains.jpg) no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+}
+
+#power-info h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 3.5em;
+}
+
+#power-info .row:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#power-info a{
+  color: #fff;
+}
+
+/* Applying web fonts to the power info paragraph */
+#power-info p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.05em;
+}
+
+.format-p {
+  color: #fff;
+  font-weight: normal;
+}
+
+#onboard-info {
+  width: 100%;
+  height: 500px;
+  background-color: #66cc99;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+#onboard-info h1 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.col-md-4 > h4 {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Startup plans styles */
+#plans {
+  width: 100%;
+  height: 600px;
+  background-color: #eee;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+#legacy {
+  margin-left: 0;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#legacy h6 {
+  background: lightgray;
+  color: #fff;
+  padding: 8px 15px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#legacy h1 {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+#legacy a {
+  display: inline-block;
+  color: #fff;
+  background: #66cc99;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+#popular-plans {
+  background: #fff;
+  height: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#popular-plans h6{
+  background: violet;
+  color: #fff;
+  padding: 8px 15px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#popular-plans h1 {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+#popular-plans a {
+  display: inline-block;
+  color: #fff;
+  background: #66cc99;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+#format-img {
+  margin-left: 0
+  box-sizing: border-box;
+}
+
+#format-img img:nth-child(2) {
+  margin-top: 8px;
+}
+
+.img-responsive {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+#footer-format {
+  width: 100%;
+  height: 700px;
+  background-color: #123354;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+#footer-format h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+#footer-format .format-p {
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+#my-resource {
+  margin-top: 75px;
+}
+
+.resources > * {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.1em;
+  display: block;
+}
+
+.resources a {
+  padding: 3px;
+}
+
+/* Styling the form */
+#subscription {
+  display: grid;
+  grid-template: 55px / 1fr 1fr 1fr 50px;;
+  grid-template-areas:
+    "in in in bt";
+}
+
+input {
+  grid-area: in;
+  border: none;
+}
+
+button {
+  grid-area: bt;
+  background: #66cc99;
+  color: #fff;
+  box-sizing: border-box;
+  border: none;
+  font-weight: 100;
+  font-size: 40px;
+  width: 60px;
+}
+
+#spam-msg {
+  margin-top: 20px;
+  color: #998;
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 1.12em;
+}
+
+/* Styles for different screens */
+@media screen and (max-width: 768px) {
+  #content-tiles {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #onboard-info {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    height: 700px;
+  }
+  #plans {
+    padding: 0;
+    height: 890px;
+  }
+  #footer-format {
+    padding-top: 20px;
+    height: 100%;
+  }
+  #stay-in-touch {
+    margin-top: 50px;
+  }
+}
